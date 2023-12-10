@@ -42,21 +42,28 @@
             <div class="container">
                 <div class="info-box">
                     <h3>Diezmos-ofrendas</h3>
-                    <p><b>DEPÓSITO BANCARIO / TRANSFERENCIA</b></p>
-                    <p>Si estás en Venezuela puedes hacer una transferencia o un Pago Movil, a las siguientes cuentas 
-                        monetarias.</p>
+                    <h4><b>DEPÓSITO BANCARIO / TRANSFERENCIA</b></h4>
+                    <p>Si estás en Venezuela puedes hacer una transferencia o un Pago Movil, a las siguientes cuentas monetarias.</p>
                     <form action="#" method="POST">
-                        <label for=""><b>Pago Movil:</b>
-                            <p id="texto-a-copiar"><p style="display: none;">pagar 0102 04128375354 14725867 Monto</p></p>
-                            <button onclick="copiarTexto()" class="boton-copiar"> pagar 0102 04128375354 14725867 Monto </button></p>
-                        <label for=""><b>transferencia:</b> <p>Banco De Venezuela (Codigo: 0102) </p> <p>Titular: Oscar Bastardo</p> 
-                        <p>cuenta corriente: 0613870000526238</p> <p>C.I: 10926884</p></label>
-                        <h6><b>Recuerda:</b> Si utilizas un banco para enviar tu Ofrenda, Diezmo o Donaciones, debes notificarlo inmediatamente al correo: 
-                            <b>Oscarpower7@gmail.com</b> o al<b><p id="texto-a-copiar"><p style="display: none;">+584249312185</p></p><button onclick="copiarTexto()" class="boton-copiar">WhatsApp +58 424-9312185,</button></p></b>
-                            para que podamos emitir un recibo del deposito con tus datos. 
-                            <p>Es importante que nos dejes tu Peticion de oracion, Gracias por tu apoyo.</p> </h6>
+                      <label for="pago-movil"><h5>Pago Movil:</h5></label>
+                      <p id="pago-movil">pagar 0102 04128375354 14725867 Monto ,
+                      <button onclick="copiarTexto('pago-movil')" class="boton-copiar">Copiar pago Movil</button></p>
+                  
+                      <label for="transferencia"><h5>Transferencia:</h5></label>
+                      <p id="transferencia">
+                        Banco De Venezuela (Codigo: 0102) <br>
+                        Titular: Oscar Bastardo <br>
+                        cuenta corriente: 0613870000526238 <br>
+                        C.I: 10926884
+                      </p>
+                      <h6><b>Recuerda:</b> Si utilizas un banco para enviar tu Ofrenda, Diezmo o Donaciones, debes notificarlo inmediatamente al correo: 
+                        <b>Oscarpower7@gmail.com</b> o al <b>WhatsApp +58 424-9312185</b></h6>
+                      <p id="whatsapp" style="display: none;">+58 424-9312185</p>
+                      <button onclick="copiarTexto('whatsapp')" class="boton-copiar">Copiar Numero</button>
+                  
+                      <p>Es importante que nos dejes tu Peticion de oracion, Gracias por tu apoyo.</p>
                     </form>
-                </div>
+                  </div>
                 <div class="info-box">
                     <h3>Donaciones</h3>
                     <form action="#" method="POST">

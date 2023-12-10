@@ -1,18 +1,3 @@
-/*!
-=========================================================
-* FoodHut Landing page
-=========================================================
-
-* Copyright: 2019 DevCRUD (https://devcrud.com)
-* Licensed: (https://devcrud.com/licenses)
-* Coded by www.devcrud.com
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
-// smooth scroll
 $(document).ready(function(){
     $(".navbar .nav-link").on('click', function(event) {
 
@@ -72,18 +57,16 @@ $(document).ready(function(){
     });
   });
 
-function copiarTexto() {
-    var texto = document.getElementById("texto-a-copiar");
-    var seleccion = window.getSelection();
-    var rango = document.createRange();
-    rango.selectNodeContents(texto);
-    seleccion.removeAllRanges();
-    seleccion.addRange(rango);
-    document.execCommand("copy");
-    seleccion.removeAllRanges();
-    alert("Se Ha Copiado Con exito");
+  function copiarTexto(id) {
+    const texto = document.getElementById(id).innerText;
+    const input = document.createElement('input');
+    input.setAttribute('value', texto);
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    document.body.removeChild(input);
+    alert('Texto copiado al portapapeles: ' + texto);
   }
-
   var btnContacto = document.getElementById("btn-contacto");
   var panelContacto = document.getElementById("panel-contacto");
   
