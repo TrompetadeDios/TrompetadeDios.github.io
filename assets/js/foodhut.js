@@ -65,8 +65,8 @@ $(document).ready(function(){
     input.select();
     document.execCommand('copy');
     document.body.removeChild(input);
-    alert('Texto copiado al portapapeles: ' + texto);
   }
+
   var btnContacto = document.getElementById("btn-contacto");
   var panelContacto = document.getElementById("panel-contacto");
   
