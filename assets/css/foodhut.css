@@ -4150,7 +4150,7 @@ input[type="button"].btn-block {
 }
 
 .custom-select:focus {
-  border-color: #ff214f;
+  border-color: #f56709;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(255, 33, 79, 0.25);
 }
@@ -4361,7 +4361,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #ff214f;
+  background-color: #f56709;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4934,11 +4934,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-brand {
-  color: #ff214f;
+  color: #f56709;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: #ff214f;
+  color: #f56709;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -4957,7 +4957,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #ff214f;
+  color: #f56709;
 }
 
 .navbar-light .navbar-toggler {
@@ -5005,7 +5005,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #2137ff;
+  color: #21f5ff;
 }
 
 .navbar-dark .navbar-toggler {
@@ -8893,6 +8893,7 @@ button.bg-dark:focus {
 .mb-2,
 .my-2 {
   margin-bottom: 0.5rem !important;
+  
 }
 
 .ml-2,
@@ -8941,6 +8942,7 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
+  text-align: justify;
 }
 
 .ml-4,
@@ -10760,10 +10762,11 @@ button.bg-dark:focus {
 
 .text-white {
   color: #fff !important;
+  text-align: justify;
 }
 
 .text-primary {
-  color: #ff214f !important;
+  color: #2081f9 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -11254,6 +11257,8 @@ pre {
 .has-img-bg {
   background: url(../imgs/Paloma/paloma\ 3mg.png) no-repeat center center;
   background-size: cover;
+  height: 700px;
+  
 }
 
 .has-bg-overlay {
@@ -11271,7 +11276,7 @@ pre {
   background-size: cover;
   background-attachment: fixed;
   z-index: -1;
-  opacity: .3;
+  opacity: .2;
 }
 
 .has-bg-overlay:after {
@@ -11532,3 +11537,15 @@ details[open] .panel {
             color: #333;
         }
    
+.justificado {
+  text-align: justify;
+  max-width: 800px; 
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
+.pastores {
+  background-image: url(assets/imgs/max-saeling-m8nRxnGFWVc-unsplash);
+  text-align: justify;
+  image-rendering: auto;
+}
