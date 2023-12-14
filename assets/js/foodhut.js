@@ -158,12 +158,6 @@ $('.related-carousel').owlCarousel({
   }
 });
 
-/**script de google analityc */
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MW5E68JN0F');
 
 
 
